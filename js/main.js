@@ -13,3 +13,12 @@ $(document).ready(function () {
     toggleNavbarMethod();
     $(window).resize(toggleNavbarMethod);
 });
+
+// Header slider
+$('.header-slider').slick({
+    autoplay: true,
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1
+});
