@@ -22,3 +22,44 @@ $('.header-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1
 });
+// brand slider
+$('.brand-slider').slick({
+    autoplay: true,
+    dots: false,
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    speed: 5000,
+    autoplaySpeed: 0,
+    cssEase: 'linear',
+    swipeToSlide: true,
+    centerMode: true,
+    focusOnSelect: false,
+    arrows: false,
+    responsive: [
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 4,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 3,
+            }
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 300, 
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+    ]
+});
