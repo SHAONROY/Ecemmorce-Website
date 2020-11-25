@@ -300,7 +300,7 @@ h2 {
         max-height: 90px;
     }
 }
-@media (max-width: 768.98px){
+@media (max-width: 767.98px){
     .bottom-bar .logo, 
     .bottom-bar .search, 
     .bottom-bar .user {
@@ -553,4 +553,43 @@ h2 {
 }
 .category .category-name:hover p {
     margin: 0;
+}
+/* ********************************/
+/********** call to action CSS ***********/
+/**********************************/
+.call-to-action {
+    position: relative;
+    padding: 30px 0px;
+    background: #FF6F61;
+}
+.call-to-action h1 {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+}
+.call-to-action .col-md-6:last-child {
+    text-align: right;
+}
+.call-to-action a {
+    display: inline-block;
+    font-size: 30px;
+    padding: 0px 20px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+}
+.call-to-action a:hover {
+    color: #000000;
+    border: 1px solid #000000;
+}
+@media (max-width: 767.98px ){
+    .call-to-action,
+    .call-to-action .col-md-6:last-child  {
+        text-align: center !important;
+    }
+    .call-to-action h1 {
+        margin-bottom: 20px;
+    }
 }
