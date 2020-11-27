@@ -97,3 +97,19 @@ $('.product-slider-4').slick({
         },
     ]
 });
+// Start The Review Slider
+$('.review-slider').slick({
+    dots: false,
+    autoplay: true,
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+    ]
+});
