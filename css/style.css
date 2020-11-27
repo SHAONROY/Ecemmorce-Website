@@ -1101,3 +1101,25 @@ h2 {
         text-align: center; 
     } 
 }
+/**********************************/
+/******** .breadcrumb CSS *******/
+/**********************************/
+.breadcrumb-wrap {
+    position: relative;
+    width: 100%;
+}
+.breadcrumb {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+.breadcrumb + .breadcrumb-item::before {
+    content: '/';
+    color: #6c757d;
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+.breadcrumb-item .active a {
+    color: #6c757d;
+}
