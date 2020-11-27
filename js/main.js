@@ -63,6 +63,14 @@ $('.brand-slider').slick({
         }
     ]
 });
+  // Widget slider
+  $('.sidebar-slider').slick({
+    autoplay: true,
+    dots: false,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1
+});
 //feature Product
 $('.product-slider-4').slick({
     autoplay: true,
