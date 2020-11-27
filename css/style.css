@@ -1228,6 +1228,11 @@ h2 {
     margin: -1px 0 0 0;
     border-radius: 0;
 }
+@media(max-width: 767.98px){
+    .product-short {
+        margin: 10px 0;
+    }
+}
 .product-view .product-item {
     margin-bottom: 30px;
 }
