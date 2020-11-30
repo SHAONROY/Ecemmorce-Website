@@ -121,6 +121,53 @@ $('.review-slider').slick({
         }
     ]
 });
+//product-detail slider
+ // Product Detail Slider
+ $('.product-slider-single').slick({
+    infinite: true,
+    autoplay: true,
+    dots: false,
+    fade: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    asNavFor: '.product-slider-single-nav'
+});
+$('.product-slider-single-nav').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: false,
+    centerMode: true,
+    focusOnSelect: true,
+    asNavFor: '.product-slider-single'
+});
+  // Product Slider 3 Column
+  $('.product-slider-3').slick({
+    autoplay: true,
+    infinite: true,
+    dots: false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 3,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+            }
+        },
+    ]
+});
  // Back to top button
  $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
