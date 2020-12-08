@@ -1924,4 +1924,16 @@ h2 {
     background: #ffffff;
     border-bottom: 30px solid #f3f6ff;
 }
+/**********************************/
+/****** Register & Login CSS ******/
+/**********************************/
+.login {
+    position: relative;
+    padding-top: 30px;
+}
+.login .login-form,
+.login .register-form {
+    padding: 30px;
+    background: #ffffff;
+    margin-bottom: 30px;
 }
